@@ -1,0 +1,56 @@
+body{
+    background: #DDDDDD	;
+}
+
+.mycontainer {
+    background-color: rgb(32, 32, 32);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    padding: 3rem;
+    width: 600px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.profile-contatiner{
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+}
+
+.profile {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.dropdown_container {
+    width: 80%;
+}
+
+.dropdown_form {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    padding: 2px 20px;
+    padding: 2rem;
+}
+
+.ab {
+    margin: 40px auto !important;
+}
+
+.black-text {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.options {
+    font-size: 18px;
+}
