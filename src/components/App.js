@@ -33,8 +33,6 @@ class App extends React.Component {
 
   handelSubmit(event) {
     event.preventDefault();
-    alert(this.state.value);
-    console.log(event.target);
     fetch("https://reqres.in/api/users")
       .then(Response => Response.json())
       .then(data => {
